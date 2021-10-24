@@ -38,6 +38,7 @@ html{
     padding-left: 20px;
     align-self: center;
     font-family: "Montserrat";
+    font-size: 20px;
 }
 .iconss{
     width: 30px;
@@ -45,8 +46,8 @@ html{
   
 }
 .map{
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
    
 }
 .sidebar{
@@ -454,7 +455,13 @@ label #btn{
         height: 112.2px; 
         padding-top: 50px;
     }
-
+    .map{
+        width: 300px;
+        height: 200px;
+    }
+    .ctext p{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width:640px)
 {   
@@ -577,6 +584,13 @@ label #btn{
     .dots{
         padding-top: 90px;
     }
+    .map
+    {
+        width: 400px;
+    }
+    .ctext p{
+        font-size: 15px;   
+    }
 }
 
 @media screen and (min-width:640px)
@@ -662,7 +676,9 @@ label #btn{
         height: 112.2px; 
         padding-top: 50px;
     }
-
+    .map{
+        width: 500px;
+    }
 }
 @media screen and (min-width:700px)
 {
@@ -745,6 +761,9 @@ label #btn{
     {
         height: 140.3px; 
         padding-top: 62.5px;
+    }
+    .map{
+        width: 600px;
     }
 }
 @media screen and (min-width:850px)
@@ -854,6 +873,10 @@ label #btn{
         height: 179.6px; 
         padding-top: 80px;
     }
+    .map{
+        width: 500px;
+        height: 300px;
+    }
 }
 @media screen and (min-width:1124px)
 {
@@ -944,6 +967,11 @@ label #btn{
         height: 224.5px; 
         padding-top: 100px;
     }
+    .map{
+        width: 600px;
+        height: 300px;
+    }
+   
 }
 @media screen and (min-width:1380px)
 {
