@@ -303,7 +303,9 @@ label #btn{
     font-size: 33px;
     text-align: center;
 }
-
+.latest{
+    justify-content: center;
+}
 
 .our_works p{
     text-align: center;
@@ -337,20 +339,19 @@ label #btn{
 
 .latest-next,
 .latest-prev{
-    height: 70px;
-    font-size: 60px;
+    height: 85px;
+    font-size: 55px;
     position: relative;
-    left: 880px;
-    top: 330px;
+    top: 310px;
     cursor: pointer;
     border-radius: 3px 3px 3px 3px
 }
 
 .latest-next{
-    left: 880px;
+    left: 300px;
 }
 .latest-prev{
-    left: 0px;
+    right: 300px;
 }
 
 .latest-prev:hover,
@@ -360,8 +361,16 @@ label #btn{
 }
 
 .slideshow-container{
-    display: flex;
-    justify-content: center;
+    text-align: center;
+}
+
+.slideshow-inner{
+    text-align: center;
+}
+
+.slideshow-img{
+    height: 550px;
+    width: 550px;
 }
 /* @keyframes wipe-enter {
 	from {
@@ -465,6 +474,11 @@ label #btn{
 }
 @media screen and (max-width:640px)
 {   
+    .slideshow-img{
+        margin-top: 30px;
+        height: 400px !important;
+        width: 400px !important;
+    }
     .contact{
         justify-content: center;
     }
@@ -592,7 +606,23 @@ label #btn{
         font-size: 15px;   
     }
 }
-
+@media screen and (max-width: 800px)
+{
+    .slideshow-img{
+        margin-top: 30px;
+        height: 500px;
+        width: 500px;
+    }
+    .latest-next{
+        left: 270px;
+    }
+    .latest-prev{
+        right: 270px;
+    }
+    .slideshow-container{
+        margin-top: -70px;
+    }
+}
 @media screen and (min-width:640px)
 {   .contact{
         justify-content: center;
@@ -877,6 +907,7 @@ label #btn{
         width: 500px;
         height: 300px;
     }
+    
 }
 @media screen and (min-width:1124px)
 {
