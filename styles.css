@@ -418,6 +418,25 @@ label #btn{
   }
 @media screen and (max-width:420px)
 {
+    #mapDiv{
+        width: 200px;
+    }
+    .slideshow-img{
+        margin-top: 30px;
+        height: 300px ;
+        width: 300px; 
+    }
+    .latest-prev,
+    .latest-next{
+        font-size: 20px;
+        top: 195px;
+    }
+    .latest-next{
+        left: 160px;
+    }
+    .latest-prev{
+        right: 160px;
+    }
     .logo{
         display: none;
     }
@@ -472,13 +491,28 @@ label #btn{
         font-size: 15px;
     }
 }
-@media screen and (max-width:640px)
+@media screen and (max-width:640px) and (min-width: 421px)
 {   
     .slideshow-img{
         margin-top: 30px;
-        height: 400px !important;
-        width: 400px !important;
+        height: 400px;
+        width: 400px ;
     }
+    .latest-prev{
+        font-size: 30px;
+        right: 210px 
+    }
+    .latest-next{
+        left: 210px;
+        font-size: 30px;
+    }
+    .latest-next,
+    .latest-prev{
+        top: 260px;
+    }
+}
+@media screen and (max-width:640px)
+{   
     .contact{
         justify-content: center;
     }
@@ -606,7 +640,7 @@ label #btn{
         font-size: 15px;   
     }
 }
-@media screen and (max-width: 800px)
+@media screen and (max-width: 800px) and (min-width: 641px)
 {
     .slideshow-img{
         margin-top: 30px;
