@@ -4,8 +4,12 @@
     box-sizing: border-box;
     font-family: "Montserrat";
     text-decoration: none;
+    
 }
-
+.back{
+    background-color: rgb(232, 234, 237);
+}
+}
 html{
     scroll-behavior: smooth;
 }
