@@ -6,13 +6,7 @@
     text-decoration: none;
     
 }
-<<<<<<< HEAD
-/* .back{
-=======
-/* .bgbody{
->>>>>>> 2b7cf1b7e424d42a6861923285cc5ec7be2c200c
-    background-color: rgb(232, 234, 237);
-} */
+
 html{
     scroll-behavior: smooth;
 }
@@ -226,23 +220,24 @@ label #btn{
     right:40px;
     font-size: 45px;
     cursor: pointer;
-    height: 50px;
+    height: 70px;
     width:38px;
-    top: 300px;
+    top: 285px;
 }
 .next{
-    top: 253px;
+    top: 213px;
     left: 700px;
     position: relative;
     font-size: 45px;
     cursor: pointer;
-    height: 50px;
+    height: 70px;
     width:38px;
 }
 .prev:hover, .next:hover {
     background-color: rgba(102, 87, 87, 0.8);
 }
-.dot {
+.dot,
+.gal-dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -254,6 +249,9 @@ label #btn{
 }
   
 .active, .dot:hover {
+    background-color: #717171;
+}
+.gal-dot:hover{
     background-color: #717171;
 }
 
@@ -387,7 +385,29 @@ label #btn{
 		transform: scale(1, .025);
 	}
 } */
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(218, 129, 181);
+    overflow: hidden;
+}
 
+.swiper-container{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
 /* img {vertical-align: middle;} */
 
   
