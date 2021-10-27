@@ -302,7 +302,12 @@ label #btn{
     font-size: 25px;
     padding: 40px;
 }
-
+.textbox1{
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+}
 
 .latest p{
     font-size: 33px;
@@ -555,6 +560,9 @@ section{
         display: none;
     }
     .textbox {
+        font-size: 15px;
+    }
+    .textbox1 {
         font-size: 15px;
     }
     .latest p{
