@@ -9,6 +9,7 @@
 
 html{
     scroll-behavior: smooth;
+    background-color: #fffbc7;
 }
 
 #contacts {
@@ -210,22 +211,22 @@ label #btn{
     font-size: 33px;
 }
 .gal{
-    margin-top: -50px;
+    margin-top: -90px;
     height:500px;
     width:700px;
 }
 .prev{
     position: relative;
     color:black;
-    right:40px;
+    right:50px;
     font-size: 45px;
     cursor: pointer;
-    height: 70px;
-    width:38px;
-    top: 285px;
+    height: 65px;
+    width:35px;
+    top: 250px;
 }
 .next{
-    top: 213px;
+    top: 178px;
     left: 700px;
     position: relative;
     font-size: 45px;
@@ -234,7 +235,8 @@ label #btn{
     width:38px;
 }
 .prev:hover, .next:hover {
-    background-color: rgba(102, 87, 87, 0.8);
+    background-color: rgba(167, 167, 167, 0.8);
+    color: white;
 }
 .dot,
 .gal-dot {
@@ -526,9 +528,8 @@ section{
 @media screen and (max-width:640px) and (min-width: 421px)
 {   
     .slideshow-img{
-        margin-top: 30px;
-        height: 400px;
-        width: 400px ;
+        height: 350px;
+        width: 350px ;
     }
     .latest-prev{
         font-size: 30px;
@@ -540,7 +541,7 @@ section{
     }
     .latest-next,
     .latest-prev{
-        top: 260px;
+        top: 200px;
     }
 }
 @media screen and (max-width:640px)
@@ -642,8 +643,9 @@ section{
         padding-top: 50px;
     }
     .gal{
+        margin-top: -110px;
         height: 120px;
-        width: 300px;
+        width: 420px;
     }
     .galslide{
         margin-top: -20px;
@@ -655,17 +657,18 @@ section{
         font-size: 20px;
     }
     .next{
-        top: 88px;
-        left: 295px;
-        font-size: 25px;
+        top: 60px;
+        left: 410px;
+        font-size: 33px;
+        height: 50px;
     }
     .prev{
-        font-size: 25px;
-        top: 135px;
-
+        font-size: 33px;
+        top: 110px;
+        height: 50px;
     }
     .dots{
-        padding-top: 90px;
+        padding-top: 20px;
     }
     .map
     {
