@@ -9,14 +9,24 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: #fffbc7;
+    background-color: #ffe4ea;
 }
 html,body{
     position: relative;
 }
-.c1{
-    background-color: brown;
+
+.contact-background{
+    background-image: url("/assets/pexels-negative-space-33999\ 1.jpg");
+    height: 100vh;
 }
+/* .c1{
+    background-color: brown;
+} */
+.c1 {
+    background-color: rgba(255, 255, 255, 0.5);  
+    backdrop-filter: blur(1px);
+    box-shadow: rgb(168, 168, 168) 0px 3px 10px;
+  }
 .c2{
     background-color: lightgreen;
 }
@@ -27,7 +37,7 @@ html,body{
 {
     background-color: lemonchiffon;
 }
-section
+/* section
 {
     position: relative;
     width: 100%;
@@ -37,7 +47,7 @@ section
     align-items: centre;
     background: #2186f3;
     overflow: hidden;
-}
+} */
 .yes{
     width: 500px;
     height: 500px;
@@ -76,7 +86,7 @@ section
  .contact{
      display: flex;
      flex-wrap: wrap;
-     
+     margin-top: 50px;
  }
 
 .cleft {
@@ -309,6 +319,9 @@ label #btn{
 .active, .dot:hover {
     background-color: #717171;
 }
+#contacts{
+    padding-top: 80px;
+}
 .gal-dot:hover{
     background-color: #717171;
 }
@@ -451,13 +464,20 @@ label #btn{
 section{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 68vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(218, 129, 181);
     overflow: hidden;
 }
+
+#te{
+    margin-top: 30px;
+    background: url(/assets/testimonials\ background\ img\ revised\ \ \ Gridwise\ 1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 
 .swiper-container{
     width: 100%;
@@ -470,6 +490,12 @@ section{
     background-size: cover;
     width: 300px;
     height: 300px;
+}
+
+.testtitle{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 33px;
 }
 /* img {vertical-align: middle;} */
 
@@ -644,6 +670,9 @@ section{
 }
 @media screen and (max-width:640px)
 {   
+    .testtitle{
+        font-size: 20px;
+    }
     .contact{
         justify-content: center;
     }
