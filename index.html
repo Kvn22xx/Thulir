@@ -13,6 +13,7 @@
     <title>Thulir Designers</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="icon" type="image/png" href="assets/fav1.png"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -99,11 +100,61 @@
       <p>
         OUR WORKS
       </p>
-      <!-- <div class="scrollable">
-        <img class="front" src="assets/InShot_20210309_135349061 (1).png">
-        <img class="back" src="assets/thulir logo (3).png">
-      </div> -->
     </div>
+    <div class="swiper mySwiper slider1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+              <div class="slide-col">
+                  <div class="user-text">
+                      <p>
+                          Fashion is part of the daily air and it changes all
+                          the time, with all the events. You can even see the
+                          approaching of a revolution in clothes. You can see and 
+                          feel everything in clothes.
+                      </p>
+                  </div>
+                  <div class="user-img">
+                      <img src="assets/layer1.png"> 
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="slide-col">
+                  <div class="user-text">
+                      <p>
+                          Fashion is part of the daily air and it changes all
+                          the time, with all the events. You can even see the
+                          approaching of a revolution in clothes. You can see and 
+                          feel everything in clothes.
+                      </p>
+                  </div>
+                  <div class="user-img">
+                      <img src="assets/layer11.png"> 
+                  </div>
+              </div>
+          </div>
+
+          <div class="swiper-slide">
+              <div class="slide-col">
+                  <div class="user-text">
+                      <p>
+                          Fashion is part of the daily air and it changes all
+                          the time, with all the events. You can even see the
+                          approaching of a revolution in clothes. You can see and 
+                          feel everything in clothes.
+                      </p>
+                  </div>
+                  <div class="user-img">
+                      <img src="assets/layer1.png"> 
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination swiper-pagination1"></div>
+    </div>
+
 
     <div class="textbox1">
       <a>Elegence is the only beauty that never fades.<br>Different is Beautiful<br>Classy and Fab</a>
@@ -169,7 +220,7 @@
         Testimonials
       </p>
     <section>
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper slider2">
         <div class="swiper-wrapper">
           <div class="swiper-slide c1">
               <div class="testimonial ">
@@ -225,7 +276,7 @@
           </div>
           
         </div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination swiper-pagination2"></div>
       </div>
     </section>
     </div>
@@ -264,13 +315,33 @@
     </div>
     
   </div>
- 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".slider1", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination1",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper(".slider2", {
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
@@ -283,7 +354,7 @@
           slideShadows: true,
         },
         pagination: {
-          el: ".swiper-pagination",
+          el: ".swiper-pagination2",
         },
       });
     </script>
