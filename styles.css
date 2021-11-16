@@ -6,18 +6,23 @@
     text-decoration: none;
     
 }
-
+.testimonials{
+    height: 50%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+}
 html{
     scroll-behavior: smooth;
-    background-color: #ffe4ea;
+    background-color: rgb(223, 221, 221);
 }
 html,body{
     position: relative;
 }
 
 .contact-background{
-    background-image: url("/assets/pexels-negative-space-33999\ 1.jpg");
+    background-image: url("/assets/i8.jpeg");
     height: 100vh;
+   
 }
 /* .c1{
     background-color: brown;
@@ -122,6 +127,8 @@ html,body{
   width: 50%;
   padding-top: 50px;
   padding-bottom: 50px;
+  /* background-attachment: fixed;
+  height: 100%;  */
 }
 
 .slider2 .swiper-slide {
@@ -147,6 +154,7 @@ html,body{
     text-align: center;
     font-family: "Montserrat";
     font-size: 33px;
+    /* font-weight: bold; */
 }
  .contact{
      display: flex;
@@ -166,12 +174,14 @@ html,body{
 .ctext{
     display:flex;
     padding-top: 10px;
+    
 }
 .ctext p{
     padding-left: 20px;
     align-self: center;
     font-family: "Montserrat";
     font-size: 20px;
+    /* font-weight: bold; */
 }
 .iconss{
     width: 30px;
@@ -238,6 +248,12 @@ label #btn{
   background-size: 100% ;
   background-repeat: no-repeat;   
   object-fit: contain;
+
+
+  background-attachment: fixed;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 }
 .navigation_Bar
 {
@@ -343,7 +359,7 @@ label #btn{
 }
 .gal{
     margin-top: -90px;
-    height:500px;
+    height:800px;
     width:700px;
 }
 .prev{
@@ -538,9 +554,15 @@ section{
 
 #te{
     margin-top: 30px;
-    background: url(/assets/testimonials\ background\ img\ revised\ \ \ Gridwise\ 1.png);
+    background: url("assets/i10.jpeg");
+    /* background: rgb(255, 138, 196); */
     background-repeat: no-repeat;
     width: 100%;
+    height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  
 }
 
 
@@ -597,6 +619,31 @@ section{
    
     }
   }
+@media screen and (max-width:419px) and (min-width: 375px)
+{
+    /* .slider1. .slide-col
+    {
+        width: 250px !important;
+        height: 200px !important;
+    } */
+    .user-img{
+        height: 50% !important; 
+        right: 10%;
+    }
+    .user-text{
+        width: 200px;
+        height: 100px;
+        top: 20%;
+        left: 10% !important;
+        padding: 15px !important; 
+    }
+    .user-text p{
+        font-size: 6px;
+        line-height: 10px;
+        padding-top: 5px !important;
+        padding-right: 10px;
+    }
+}
 @media screen and (max-width:420px)
 {   .slider1. .slide-col
     {
@@ -604,18 +651,20 @@ section{
         height: 200px !important;
     }
     .user-img{
-        height: 50%;
+        height: 40%;
     }
     .user-text{
-        width: 250px;
+        width: 200px;
         height: 100px;
         top: 20%;
+        left: 5% !important;
         padding: 10px;
     }
     .user-text p{
         font-size: 6px;
         line-height: 10px;
         padding-top: 25px;
+        padding-right: 10px;
     }
     .slider2 .swiper-slide {
     
@@ -707,8 +756,9 @@ section{
     }
 }
 @media screen and (max-width:640px) and (min-width: 421px)
-{   .slider2 .swiper-slide {
-    
+{   
+      .slider2 .swiper-slide 
+    {
     width: 160px !important;
     height: 250px !important;
   }
