@@ -56,7 +56,7 @@ html,body{
   
 
 .slider3 .slide-col1{
-    width:70%;
+    width:60%;
     /* height: 600px; */
     position: relative;
     align-items: center;
@@ -116,7 +116,8 @@ html,body{
 .user-text
 {
     text-align: center;
-    background: #2d3a59;
+    /* background: #12151b; */
+    background: url("assets/thulir.logo.png");
     width: 1100px;
     height: 450px;
     position: absolute;
@@ -423,7 +424,8 @@ label #btn{
     width: 33%;
     padding: 10px;
     /* padding-right: 5px;  */
-    height: auto;
+    
+    height: same-as-width;
     overflow: hidden;
   }
 .column:hover {opacity: 0.7;}
