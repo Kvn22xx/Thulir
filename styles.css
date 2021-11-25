@@ -214,10 +214,6 @@ html,body{
      padding-left: 10px;
      padding-top: 30px;
  } 
-.cright {
-    padding-left: 50px;
-    
-}
 .ctext{
     display:flex;
     padding-top: 10px;
@@ -326,9 +322,10 @@ label #btn{
 
 .logo{
     position: absolute;
-    height: 70px;
-    padding-left: 10px;
     padding-top: 10px;
+    padding-left: 20px;
+    width: 120px;
+    height: 100px;
     display: block;
 }
 
@@ -633,122 +630,148 @@ section{
    
     }
   }
-@media screen and (max-width:419px) and (min-width: 375px)
+@media screen and (min-width:100px) and (max-width: 549px)
+{
+    .slide-col{
+        height: 400px;
+    }
+    .user-text{
+        width: 350px;
+        height: 220px;
+    }
+    .user-text p{
+        font-size: 10px;
+        line-height: 13px;
+        padding-right: 140px;
+        padding-left: 5px;
+    }
+    .user-img img{
+        margin-right: 660px;
+        height: 170px;
+        width: 170px;
+    }
+}
+@media screen and (min-width:550px) and (max-width: 680px)
 {
     /* .slider1. .slide-col
     {
         width: 250px !important;
         height: 200px !important;
     } */
-    .user-img{
-        height: 50% !important; 
-        right: 10%;
-    }
     .user-text{
-        width: 200px;
-        height: 100px;
-        top: 20%;
-        left: 10% !important;
-        padding: 15px !important; 
+        width: 450px;
+        height: 260px;
     }
     .user-text p{
-        font-size: 6px;
-        line-height: 10px;
-        padding-top: 5px !important;
-        padding-right: 10px;
+        font-size: 11px;
+        line-height: 20px;
+        padding-right: 160px;
+        padding-left: 10px;
+    }
+    .user-img img{
+        margin-right: 560px;
+        height: 200px;
+        width: 200px;
     }
 }
-@media screen and (max-width: 583px)
+@media screen and (min-width: 681px) and (max-width: 820px)
 {
     .user-text{
-        width: 350px;
-        height: 120px;
+        width: 600px;
+        height: 250px;
     }
     .user-text p{
-        font-size: 10px;
-        line-height: 14px;
-        padding-top: 0px;
-        padding-right: 100px;
+        font-size: 12px;
+        line-height: 22px;
+        padding-right: 200px;
         padding-left: 10px;
     }
     .user-img img{
         margin-right: 440px;
-        margin-top: 250px;
-        height: 160px;
-        width: 160px;
+        height: 220px;
+        width: 220px;
     }
 }
-@media screen and (min-width: 584px) and (max-width: 720px)
+@media screen and (min-width: 821px) and (max-width: 975px)
 {
     .user-text{
-        width: 520px;
-        height: 160px;
+        width: 700px;
+        height: 340px;
     }
     .user-text p{
-        font-size: 12px;
-        padding-right: 180px;
-        padding-top: 0px;
+        font-size: 13px;
+        line-height: 33px;
+        padding-left: 40px;
+        padding-right: 300px;
     }
     .user-img img{
-        margin-right: 380px;
-        height: 180px;
-        width: 180px;
+        margin-right: 400px;
+        height: 300px;
+        width: 300px;
     }
 }
-@media screen and (min-width: 721px) and (max-width: 850px)
+@media screen and (min-width: 976px) and (max-width: 1127px)
 {
     .user-text{
-        width: 580px;
-        height: 180px;
-        padding-top: 5px;
+        width: 850px;
+        height: 350px;
+        padding-top: 25px;
     }
     .user-text p{
         font-size: 14px;
+        line-height: 33px;
+        padding-left: 40px;
+        padding-right: 350px;
     }
     .user-img img{
-        margin-right: 280px;
-        height: 200px;
-        width: 200px;
+        margin-top: 20px;
+        margin-right: 300px;
+        height: 350px;
+        width: 350px;
     }
 }
-@media screen and (min-width: 851px) and (max-width: 1080px)
+@media screen and (min-width: 1128px) and (max-width: 1280px)
 {
     .user-text{
-        width: 650px;
-        height: 200px;
+        width: 1000px;
+        height: 400px;
         padding-top: 15px;
     }
     .user-text p{
         font-size: 16px;
     }
     .user-img img{
-        margin-top: 70px;
+        margin-top: 40px;
         margin-right: 200px;
-        height: 250px;
-        width: 250px;
+        height: 400px;
+        width: 400px;
     }
 }
 @media screen and (max-width:420px)
-{   .slider1, .slide-col
+{   
+    .user-text{
+        width: 280px;
+        height: 150px;
+    }
+    .user-text p{
+        padding-top: 1px;
+        font-size: 7px;
+        line-height: 9px;
+        padding-right: 5px;
+        padding-left: 120px;
+    }
+    .user-img img{
+        margin-top: -30px;
+        margin-right: 1100px;
+        height: 150px;
+        width: 150px;
+    }
+    .slider1, .slide-col
     {
-        width: 250px !important;
-        height: 200px !important;
+        height: 250px;
     }
     .user-img{
         height: 40%;
-    }
-    .user-text{
-        width: 200px;
-        height: 100px;
-        top: 20%;
-        left: 5% !important;
-        padding: 10px;
-    }
-    .user-text p{
-        font-size: 6px;
-        line-height: 10px;
-        padding-top: 25px;
-        padding-right: 10px;
     }
     .slider2 .swiper-slide {
     
@@ -789,7 +812,7 @@ section{
         display: none;
     }
     .textbox{
-        margin-top: -100px;
+        margin-top: -20px;
     }
     .header
     {
@@ -832,8 +855,7 @@ section{
         padding-top: 50px;
     }
     .map{
-        width: 300px;
-        height: 200px;
+        width: 300px !important;
     }
     .ctext p{
         font-size: 15px;
@@ -1071,7 +1093,9 @@ section{
         height: 24px;
     }
     .logo{
-        height: 45px;
+        height: 40px;
+        width: 65px;
+        padding-left: 10px;
     }
     .header
     {
@@ -1171,7 +1195,9 @@ section{
   .testimonial{
       padding-top: 80px;  }
     .logo{
-        height: 50px;
+        height: 45px;
+        width: 85px;
+        padding-left: 10px;
     }
     .header
     {
@@ -1296,6 +1322,7 @@ section{
       padding-top: 90px;  }
     .logo{
         height: 60px;
+        width: 100px;
     }
     .header
     {
@@ -1360,7 +1387,6 @@ section{
     }
     .map{
         width: 500px;
-        height: 300px;
     }
     
 }
@@ -1403,7 +1429,8 @@ section{
   .testimonial{
       padding-top: 100px;  }
     .logo{
-        height: 75px;
+        height: 70px;
+        width: 120px;
     }
     .header
     {
