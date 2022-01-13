@@ -443,8 +443,8 @@ label #btn{
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 .modal-content {
-    height: 400px;
-    width: 400px;
+    height: 550px;
+    width: 440px;
     margin: auto;
     display: block;
 }
@@ -930,7 +930,7 @@ section{
     }
     .modal-content{
         height: 300px;
-        width: 300px;
+        width: 240px;
     }
     .social img{
         height: 30px;
