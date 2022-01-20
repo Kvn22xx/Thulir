@@ -23,9 +23,11 @@ $('.myImg').click(function(){
     modalImg.attr('src', newSrc);
     captionText.innerHTML = this.alt;
 });
-var span = document.getElementsByClassName("close")[0];
-span.onclick = function() {
+// var span = document.getElementsByClassName("close");
+function closefunction()
+{
   modal.style.display = "none";
+  document.querySelector("body").style.overflowY="scroll";
 }
 
 //JS code for gallery slideshow

@@ -450,6 +450,10 @@ label #btn{
     display: block;
 }
 
+.modal_open{
+    overflow:"hidden";
+}
+
 .modal-content{  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
@@ -628,6 +632,7 @@ section{
     text-decoration: none;
     cursor: pointer;
   }
+
   
 @media screen and (max-width: 100px) {
     .column {
