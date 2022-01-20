@@ -18,6 +18,7 @@ var modalImg = $("#img01");
 var captionText = document.getElementById("caption");
 $('.myImg').click(function(){
     modal.style.display = "block";
+    document.querySelector("body").style.overflow="hidden";
     var newSrc = this.src;
     modalImg.attr('src', newSrc);
     captionText.innerHTML = this.alt;
