@@ -6,6 +6,53 @@
     text-decoration: none;
     
 }
+
+
+
+
+
+
+
+.swiper4 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper4 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+ 
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper4 .swiper-slide img {
+    display: block;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+  }
+
+
+
+
+
+
+
+
+
 .testimonials{
     height: 50%; 
     background-attachment: fixed;
@@ -518,49 +565,9 @@ label #btn{
     text-align: center;
 }
 
-.latest-next,
-.latest-prev{
-    height: 85px;
-    font-size: 55px;
-    position: relative;
-    top: 310px;
-    cursor: pointer;
-    border-radius: 3px 3px 3px 3px
-}
 
-.latest-next{
-    left: 300px;
-}
-.latest-prev{
-    right: 300px;
-}
 
-.latest-prev:hover,
-.latest-next:hover {
-    color: #f2f2f2;
-    background-color: rgba(0, 0, 0, 0.8)
-}
 
-.slideshow-container{
-    text-align: center;
-}
-
-.slideshow-inner{
-    text-align: center;
-}
-
-.slideshow-img{
-    height: 550px;
-    width: 550px;
-}
-/* @keyframes wipe-enter {
-	from {
-		transform: scale(0, .025);
-	}
-	to {
-		transform: scale(1, .025);
-	}
-} */
 section{
     position: relative;
     width: 100%;

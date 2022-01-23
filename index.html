@@ -28,11 +28,11 @@
     </label>
     <ul>
       <li><a><br></a></li>
-      <li><a>About Us</a></li>
-      <li><a>Services</a></li>
+      <li><a href="#ab">About Us</a></li>
+      <li><a href="#work">Services</a></li>
       <li><a href="#gallery">Gallery</a></li>
-      <li><a>Testimonials</a></li>
-      <li><a href="#con">Contact</a></li>
+      <li><a href="#te">Testimonials</a></li>
+      <li><a href="#cont1">Contact</a></li>
     </ul>
   </div>
   <div class="header">
@@ -45,7 +45,7 @@
         <a href="#work" style="text-decoration: none;">Our Works</a>
         <a href="#gallery" style="text-decoration: none;">Gallery</a>
         <a href="#te" style="text-decoration: none;">Testimonials</a>
-        <a href="#con" style="text-decoration: none;">Contact</a> 
+        <a href="#cont1" style="text-decoration: none;">Contact</a> 
       </div>
       <div class="social">
         <a href="https://www.instagram.com/thulir.designers/" target=_blank><img src="assets/insta.png"></a>
@@ -64,38 +64,56 @@
       <p>
         LATEST FROM THE SEASON
       </p>
-      <div class="slideshow-container">
-        <a class="latest-prev" onclick='plusSlides(-1)'>&#10094;</a>
-        <a class="latest-next" onclick='plusSlides(1)'>&#10095;</a>
-        <div class="slideshow-inner">
-          <div class="mySlides fade">
-            <img class="slideshow-img" src="assets/l1.jpg"/>
-          </div>
-        
-          <div class="mySlides fade">
-        
-            <img class="slideshow-img" src='assets/17e9f864-964f-4a6b-9d39-68a595dd1b80.png'/>
-          </div>
-        
-          <div class="mySlides fade">
-        
-            <img  class="slideshow-img" src='/assets/l2.jpg' />
-          </div>
-          
-        </div>
+      <br>
+      <br>
+    </div>
 
-    </div>
-        <br/>
-        
-        
-        <div style='text-align: center;'>
-          <span class="dot" onclick='currentSlide(1)'></span>
-          <span class="dot" onclick='currentSlide(2)'></span>
-          <span class="dot" onclick='currentSlide(3)'></span>
-        </div>
-        
+
+
+
+
+
+    <div class="swiper mySwiper swiper4">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="slideshow-img" src="assets/la1.png"/></div>
+        <div class="swiper-slide"><img class="slideshow-img" src='assets/la2.png'/></div>
+        <div class="swiper-slide"><img  class="slideshow-img" src='/assets/la3.png' /></div>
       </div>
+      <!-- <div class="swiper-button-next next2"></div>
+      <div class="swiper-button-prev prev2"></div> -->
+      <div class="swiper-pagination new_page"></div>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper4", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".new_page",
+          clickable: true,
+        },
+        // navigation: {
+        //   nextEl: ".next2",
+        //   prevEl: ".prev2",
+        // },
+      });
+    </script>
+
+
+
+
+
+
+
+
     <div class="our_works names" id="work">
       <p>
         OUR WORKS
@@ -108,14 +126,11 @@
                   <div class="user-text">
                     <h2>Bridal Work</h2>
                       <p>
-                          Fashion is part of the daily air and it changes all
-                          the time, with all the events. You can even see the
-                          approaching of a revolution in clothes. You can see and 
-                          feel everything in clothes.
-                          Fashion is part of the daily air and it changes all
-                          the time, with all the events. You can even see the
-                          approaching of a revolution in clothes. You can see and 
-                          feel everything in clothes.
+                        A wedding day is one of the most important
+                         things in a couple’s life. On this day they
+                        commit to love, protect and respect each other 
+                        for the rest of their lives.We at Thulir coustomise 
+                        your bridal blouse with love,and affection.FOR THE BEST BRIDE !!
                       </p>
                   </div>
                   <div class="user-img">
@@ -128,14 +143,10 @@
                   <div class="user-text">
                       <h2>Pattern Blouse</h2>
                       <p>
-                        Fashion is part of the daily air and it changes all
-                        the time, with all the events. You can even see the
-                        approaching of a revolution in clothes. You can see and 
-                        feel everything in clothes.
-                        Fashion is part of the daily air and it changes all
-                        the time, with all the events. You can even see the
-                        approaching of a revolution in clothes. You can see and 
-                        feel everything in clothes.
+                        Want to be known for your trail-blazing 
+                        choices? Upgrade your ethnic wear wardrobe 
+                        with blouse designs that have edgy, off-beat, 
+                        or trendsetting front designs using our differnt patterns
                       </p>
                   </div>
                   <div class="user-img">
@@ -149,14 +160,9 @@
                   <div class="user-text">
                     <h2>Skirt and Top</h2>
                       <p>
-                        Fashion is part of the daily air and it changes all
-                        the time, with all the events. You can even see the
-                        approaching of a revolution in clothes. You can see and 
-                        feel everything in clothes.
-                        Fashion is part of the daily air and it changes all
-                        the time, with all the events. You can even see the
-                        approaching of a revolution in clothes. You can see and 
-                        feel everything in clothes.
+                        In a world full of trends,sometimes 
+                        a girl just wants to wear something classic 
+                        ,thulir coustomizes your  cloths with trend and classic.
                       </p>
                   </div>
                   <div class="user-img">
@@ -170,14 +176,9 @@
                 <div class="user-text">
                   <h2>Old Saree's to New Frock's</h2>
                     <p>
-                      Fashion is part of the daily air and it changes all
-                      the time, with all the events. You can even see the
-                      approaching of a revolution in clothes. You can see and 
-                      feel everything in clothes.
-                      Fashion is part of the daily air and it changes all
-                      the time, with all the events. You can even see the
-                      approaching of a revolution in clothes. You can see and 
-                      feel everything in clothes.
+                      A short shirt, long dupatta, and Salwar
+                       perfectly suited according to coustomer needs.
+                       Designed with LOVE
                     </p>
                 </div>
                 <div class="user-img">
@@ -191,14 +192,10 @@
               <div class="user-text">
                 <h2>Salwar</h2>
                   <p>
-                    Fashion is part of the daily air and it changes all
-                    the time, with all the events. You can even see the
-                    approaching of a revolution in clothes. You can see and 
-                    feel everything in clothes.
-                    Fashion is part of the daily air and it changes all
-                    the time, with all the events. You can even see the
-                    approaching of a revolution in clothes. You can see and 
-                    feel everything in clothes.
+                    Long Dress made out of Saree WE 
+                    in thulir made a post to reuse and 
+                    revive your old Kanjeevaram sarees in
+                    different ways.
                   </p>
               </div>
               <div class="user-img">
@@ -415,12 +412,12 @@
     </section>
     </div>
     </div>
-    <div class="contact-background">
+    <div class="contact-background" id="cont1">
       <!-- <img src="assets/i7.jpeg" id="try1"> -->
-      <div id="contacts" id="con" class="names">CONTACT US</div>
-      <br>
-    </br>
-    <br>
+      <div id="contacts" id="cont" class="names">CONTACT US</div>
+      
+    
+    
     <div class="contact">
       <div class="cleft">
         <!-- <div class="ctext">
@@ -464,13 +461,8 @@
 </br>
 </br>
 </br>
-</br>
-</br>
-</br></br>
-</br></br>
-</br></br>
-</br></br>
-</br></br>
+
+
 
     
   </div>
