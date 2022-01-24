@@ -7,6 +7,10 @@
     
 }
 
+.cp-text p
+{
+    text-align: center;
+}
 
 
 
@@ -222,7 +226,7 @@ html,body{
 }
 
 .slider2 {
-  width: 50%;
+  width: 55%;
   padding-top: 50px;
   padding-bottom: 50px;
   /* background-attachment: fixed;
@@ -790,10 +794,13 @@ section{
     .user-img{
         height: 40%;
     }
+    .slider2{
+        width: 75%;
+    }
     .slider2 .swiper-slide {
     
-    width: 100px !important;
-    height: 180px !important;
+    width: 140px !important;
+    height: 230px !important;
   }
   .content{
       font-size: 6px;
@@ -887,7 +894,9 @@ section{
       }
 }
 @media screen and (max-width:640px) and (min-width: 421px)
-{   
+{   .slider2{
+    width: 70%;
+}
       .slider2 .swiper-slide 
     {
     width: 160px !important;
