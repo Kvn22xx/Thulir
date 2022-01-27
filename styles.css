@@ -678,6 +678,9 @@ section{
         font-size: 18px;
         padding-left: 5px;
     }
+    .cp-text{
+        font-size: 10px;
+    }
 }
 @media screen and (min-width:550px) and (max-width: 680px)
 {
