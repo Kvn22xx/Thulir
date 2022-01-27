@@ -822,23 +822,23 @@ section{
         height: 40%;
     }
     .slider2{
-        width: 75%;
+        width: 95%;
     }
     .slider2 .swiper-slide {
     
-    width: 140px !important;
-    height: 230px !important;
+    width: 230px !important;
+    height: 330px !important;
   }
   .content{
-      font-size: 6px;
+      font-size: 12px;
   }
   .quote{
       width: 35px;
   }
   .testimonial{
-      padding-top: 60px;
+      padding-top: 80px;
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
   }
     #mapDiv{
         width: 200px;
@@ -848,17 +848,7 @@ section{
         height: 300px ;
         width: 300px; 
     }
-    .latest-prev,
-    .latest-next{
-        font-size: 20px;
-        top: 195px;
-    }
-    .latest-next{
-        left: 160px;
-    }
-    .latest-prev{
-        right: 160px;
-    }
+    
     .logo{
         display: none;
     }
